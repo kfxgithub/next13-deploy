@@ -3,7 +3,7 @@ import { Spotlight } from './ui/Spotlight'
 import { TextGenerateEffect } from './ui/TextGenerateEffect';
 import { ShimmerButton } from './ui/ShimmerButton';
 import { ImFire } from "react-icons/im";
-import WaterGridDrop from './ui/WaterGridDrop';
+// import WaterGridDrop from './ui/WaterGridDrop';
 
 
 const Hero = () => {
@@ -12,7 +12,7 @@ const Hero = () => {
 
 
 
-    <div className='pb-20 pt-36'>
+    <div className='pb-20 pt-36' >
         <div>
             <Spotlight className="-top-40 -left-10 md:-left-32 md:-top-20 h-screen" fill="darkred"/>
             <Spotlight className="top-10 left-full h-[80vh] w-[50vw]" fill="gold"/>
@@ -45,7 +45,7 @@ const Hero = () => {
             </p>
 
 
-            <a href="/KYLE_FLORES_RESUME.pdf" download="KYLE_FLORES_RESUME.pdf">
+            <a href="/KYLE_FLORES_RESUME.pdf" download="KYLE_FLORES_RESUME.pdf" >
                 <ShimmerButton 
                 title="My Resume"
                 icon={<ImFire />}
